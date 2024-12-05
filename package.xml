@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package>
+  <name>mujoco_ycb</name>
+  <version>0.0.1</version>
+  <description>This package contains models of the YCB object set for mujoco.</description>
+  <author email="dholzmann@techfak.uni-bielefeld.de">Dennis Holzmann</author>
+  <maintainer email="dholzmann@techfak.uni-bielefeld.de">Dennis Holzmann</maintainer>
+  <license>MIT</license>
+  <url type="website">https://github.com/CentralLabFacilities/mujoco_ycb</url>
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
