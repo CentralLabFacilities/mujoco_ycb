@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<mujoco xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:macro name="clf_spezi_assets">
+        <asset>
+            <mesh file="$(find mujoco_ycb)/assets/meshes/clf_spezi/model.obj" name="clf_spezi" scale="1.0 1.0 1.0"/>
+            <texture name="clf_spezi" file="$(find mujoco_ycb)/assets/meshes/clf_spezi/texture_map.png" type="2d"/>
+            <material name="clf_spezi" texture="clf_spezi"/>
+        </asset>
+    </xacro:macro>
+</mujoco>
+    

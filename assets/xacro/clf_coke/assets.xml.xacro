@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<mujoco xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:macro name="clf_coke_assets">
+        <asset>
+            <mesh file="$(find mujoco_ycb)/assets/meshes/clf_coke/model.obj" name="clf_coke" scale="1.0 1.0 1.0"/>
+            <texture name="clf_coke" file="$(find mujoco_ycb)/assets/meshes/clf_coke/texture_map.png" type="2d"/>
+            <material name="clf_coke" texture="clf_coke"/>
+        </asset>
+    </xacro:macro>
+</mujoco>
+    
