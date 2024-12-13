@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<mujoco xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:macro name="clf_fanta_assets">
+        <asset>
+            <mesh file="$(find mujoco_ycb)/assets/meshes/clf_fanta/model.obj" name="clf_fanta" scale="1.0 1.0 1.0"/>
+            <texture name="clf_fanta" file="$(find mujoco_ycb)/assets/meshes/clf_fanta/texture_map.png" type="2d"/>
+            <material name="clf_fanta" texture="clf_fanta"/>
+        </asset>
+    </xacro:macro>
+</mujoco>
+    
