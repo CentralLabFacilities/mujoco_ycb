@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<mujoco xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:macro name="clf_hagelslag_model" params="name pos rot">
+        <body name="clf_hagelslag_${name}" pos="${pos}" euler="${rot}">
+            <freejoint/>
+            <inertial diaginertia="0.005 0.005 0.005" mass="0.5" pos="0 0 0"/>
+            <geom name="${name}_clf_hagelslag" type="mesh" density="0" mesh="clf_hagelslag" material="clf_hagelslag"/> 
+        </body>
+    </xacro:macro>
+</mujoco>

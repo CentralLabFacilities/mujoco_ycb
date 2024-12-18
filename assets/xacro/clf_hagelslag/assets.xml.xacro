@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<mujoco xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:macro name="clf_hagelslag_assets">
+        <asset>
+            <mesh file="$(find mujoco_ycb)/assets/meshes/clf_hagelslag/model.obj" name="clf_hagelslag" scale="1.0 1.0 1.0"/>
+            <texture name="clf_hagelslag" file="$(find mujoco_ycb)/assets/meshes/clf_hagelslag/texture_map.png" type="2d"/>
+            <material name="clf_hagelslag" texture="clf_hagelslag"/>
+        </asset>
+    </xacro:macro>
+</mujoco>
+    
