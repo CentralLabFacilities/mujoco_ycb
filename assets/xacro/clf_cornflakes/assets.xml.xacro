@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<mujoco xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:macro name="clf_cornflakes_assets">
+        <asset>
+            <mesh file="$(find mujoco_ycb)/assets/meshes/clf_cornflakes/model.obj" name="clf_cornflakes" scale="1.0 1.0 1.0"/>
+            <texture name="clf_cornflakes" file="$(find mujoco_ycb)/assets/meshes/clf_cornflakes/texture_map.png" type="2d"/>
+            <material name="clf_cornflakes" texture="clf_cornflakes"/>
+        </asset>
+    </xacro:macro>
+</mujoco>
+    

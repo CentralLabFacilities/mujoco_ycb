@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<mujoco xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:macro name="clf_cornflakes_model" params="name pos rot">
+        <body name="clf_cornflakes_${name}" pos="${pos}" euler="${rot}">
+            <freejoint/>
+            <inertial diaginertia="0.005 0.005 0.005" mass="0.5" pos="0 0 0"/>
+            <geom name="${name}_clf_cornflakes" type="mesh" density="0" mesh="clf_cornflakes" material="clf_cornflakes"/> 
+        </body>
+    </xacro:macro>
+</mujoco>
